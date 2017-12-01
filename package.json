@@ -11,7 +11,7 @@
     "src/"
   ],
   "name": "@textlint/get-config-base-dir",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Context#getConfigBaseDir ponyfill for textlint ^8.x.x",
   "main": "lib/get-config-base-dir.js",
   "scripts": {
