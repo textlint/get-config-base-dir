@@ -10,7 +10,13 @@ Install with [npm](https://www.npmjs.com/):
 
 ## Usage
 
-- [ ] Write usage instructions
+```js
+import { getConfigBaseDir } from "@textlint/get-config-base-dir"
+const report = (context) => {
+    const textlintRcDir = getConfigBaseDir(context);
+}
+```
+
 
 ## Changelog
 
