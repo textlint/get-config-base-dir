@@ -1,4 +1,4 @@
-# @textlint/get-config-base-dir
+# @textlint/get-config-base-dir [![Build Status](https://travis-ci.org/textlint/get-config-base-dir.svg?branch=master)](https://travis-ci.org/textlint/get-config-base-dir)
 
 `Context#getConfigBaseDir` ponyfill for textlint ^8.x.x
 
