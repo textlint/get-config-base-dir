@@ -1,6 +1,18 @@
 # @textlint/get-config-base-dir
 
-Context#getConfigBaseDir ponyfill for textlint ^8.x.x
+`Context#getConfigBaseDir` ponyfill for textlint ^8.x.x
+
+Historically, `Context#getConfigBaseDir` is added in textlint 9.0.0.
+
+- [RuleContext API](https://github.com/textlint/textlint/blob/master/docs/rule.md#rulecontext-api "RuleContext API")
+- <https://github.com/textlint/textlint/releases/tag/textlint%409.0.0>
+
+## Behavior
+
+This ponyfill provide backward compatibility for textlint 8.x.x.
+
+- If you use textlint^9.0.0, use native Context#getConfigBaseDir.
+- If you use textlint < 9.0.0, fallback method
 
 ## Install
 
