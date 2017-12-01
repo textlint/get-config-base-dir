@@ -15,7 +15,6 @@
   "description": "Context#getConfigBaseDir ponyfill for textlint ^8.x.x",
   "main": "lib/get-config-base-dir.js",
   "scripts": {
-    "test": "mocha test/",
     "prettier": "prettier --write '**/*.{js,jsx,ts,tsx,css}'",
     "precommit": "lint-staged",
     "postcommit": "git reset",
