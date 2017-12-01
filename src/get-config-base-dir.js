@@ -11,11 +11,11 @@ const path = require("path");
  */
 export const getConfigBaseDir = context => {
     if (typeof context.getConfigBaseDir === "function") {
-        return context.getConfigBaseDir() || process.cwd();
+        return context.getConfigBaseDir();
     }
     // Old fallback that use deprecated `config` value
     // https://github.com/textlint/textlint/issues/294
     const textlintRcFilePath = context.config ? context.config.configFile : null;
     // .textlinrc directory
-    return textlintRcFilePath ? path.dirname(textlintRcFilePath) : process.cwd();
+    return textlintRcFilePath ? path.dirname(textlintRcFilePath) : undefined;
 };

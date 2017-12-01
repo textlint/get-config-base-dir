@@ -18,6 +18,7 @@
     "prettier": "prettier --write '**/*.{js,jsx,ts,tsx,css}'",
     "precommit": "lint-staged",
     "postcommit": "git reset",
+    "test": "mocha test",
     "build": "cross-env NODE_ENV=production babel src --out-dir lib --source-maps",
     "watch": "babel src --out-dir lib --watch --source-maps",
     "prepublish": "npm run --if-present build"
